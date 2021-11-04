@@ -15,10 +15,10 @@ const Service = (props) => {
             <div className="place-card">
 
                 <img src={image} alt="" />
-                <h4 className="d-flex justify-content-start ms-4">Place Name: {placename}</h4>
-                <h4 className="d-flex justify-content-start ms-4">Attraction: {attraction}</h4>
-                <h4 className="d-flex justify-content-start ms-4">Duration: {duration}</h4>
-                <h2 className="d-flex justify-content-start ms-4">Cost: {cost}</h2>
+                <h5 className="d-flex justify-content-start ms-4 mt-3">Place Name: {placename}</h5>
+                <h5 className="d-flex justify-content-start ms-4">Attraction: {attraction}</h5>
+                <h5 className="d-flex justify-content-start ms-4">Duration: {duration}</h5>
+                <h4 className="d-flex justify-content-start ms-4">Cost: {cost}</h4>
 
                 <NavLink to={`/order/${_id}`} className="d-flex justify-content-start ms-4 text-decoration-none">
                     <button>Select for Going<FontAwesomeIcon className="ms-2" icon={faBus} /> </button>

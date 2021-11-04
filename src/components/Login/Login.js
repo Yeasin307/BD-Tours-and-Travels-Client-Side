@@ -33,11 +33,11 @@ const Login = () => {
 
                     </div>
                     :
-                    <div className=" my-3 d-flex flex-column justify-content-center align-items-center">
+                    <div className=" my-5 d-flex flex-column justify-content-center align-items-center">
 
                         <h4 className="text-dark fw-bold my-5">Sign with</h4>
 
-                        <button onClick={handleGoogleSignIn} className="btn btn-dark rounded-pill fw-bolder w-25 fs-5 d-flex align-items-center justify-content-center">Google
+                        <button onClick={handleGoogleSignIn} className="btn btn-dark rounded-pill fw-bolder w-25 fs-5 d-flex align-items-center justify-content-center mb-5">Google
                             <FontAwesomeIcon icon={faGoogle} size="2x" className="text-warning mx-3" />
                         </button>
 

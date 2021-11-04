@@ -1,4 +1,12 @@
-.banner-caption{
-    color: black;
-    font-weight: 700;
+.banner-caption_1{
+    color: orange;
+    font-weight: 500;
+}
+.banner-caption_2{
+    color:gold;
+    font-weight: 500;
+}
+.banner-caption_3{
+    color: yellow;
+    font-weight: 500;
 }

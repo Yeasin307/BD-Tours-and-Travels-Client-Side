@@ -16,7 +16,7 @@ const Banner = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3 className="banner-caption">Take Our Specialist Service with Specialist Doctors.</h3>
+                        <h3 className="banner-caption_1">Beautiful tea garden in Sylhet .</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -27,7 +27,7 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3 className="banner-caption">Modern Computerized Laboratory Services.</h3>
+                        <h3 className="banner-caption_2">St. Martin's Island in Cox Bazar .</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -38,7 +38,7 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3 className="banner-caption">Accident and Emergency Care Services.</h3>
+                        <h3 className="banner-caption_3">Royal Bangle Tiger in Sundarban .</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

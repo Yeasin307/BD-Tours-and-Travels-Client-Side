@@ -15,7 +15,7 @@ const Orders = () => {
     const redirect_uri = '/yourOrders';
 
     useEffect(() => {
-        const uri = `http://localhost:5000/services/${_id}`
+        const uri = `https://desolate-woodland-95195.herokuapp.com/services/${_id}`
         fetch(uri)
             .then(res => res.json())
             .then(data => setService(data))
@@ -30,7 +30,7 @@ const Orders = () => {
 
         const newOrder = { name, email, place, number, status };
 
-        fetch('http://localhost:5000/orders', {
+        fetch('https://desolate-woodland-95195.herokuapp.com/orders', {
             method: 'post',
             headers: {
                 'content-type': 'application/json'

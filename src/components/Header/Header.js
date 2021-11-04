@@ -10,7 +10,7 @@ const Header = () => {
 
     return (
         <>
-            <Navbar bg="info bg-opacity-75" variant="dark" sticky="top" collapseOnSelect expand="lg" >
+            <Navbar style={{ backgroundColor: "limegreen" }} variant="dark" sticky="top" collapseOnSelect expand="lg" >
 
                 <Container>
 
